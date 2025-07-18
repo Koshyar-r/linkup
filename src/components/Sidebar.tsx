@@ -84,11 +84,11 @@ const UnAuthenticatedSidebar = () => (
   <div className="sticky top-20">
     <Card>
       <CardHeader>
-        <CardTitle className="text-center text-xl font-semibold">Welcome Back!</CardTitle>
+        <CardTitle className="text-center text-xl font-semibold">Welcome To LinkUp!</CardTitle>
       </CardHeader>
       <CardContent>
         <p className="text-center text-muted-foreground mb-4">
-          Login to access your profile and connect with others.
+          Login to link up with others 🔗
         </p>
         <SignInButton mode="modal">
           <Button className="w-full" variant="outline">

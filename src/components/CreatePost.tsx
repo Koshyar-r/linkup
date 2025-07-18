@@ -92,12 +92,12 @@ function CreatePost() {
               {isPosting ? (
                 <>
                   <Loader2Icon className="size-4 mr-2 animate-spin" />
-                  Posting...
+                  Publishing...
                 </>
               ) : (
                 <>
                   <SendIcon className="size-4 mr-2" />
-                  Post
+                  Publish
                 </>
               )}
             </Button>
